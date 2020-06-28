@@ -288,6 +288,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       "./tg.js": "./node_modules/moment/locale/tg.js",
       "./th": "./node_modules/moment/locale/th.js",
       "./th.js": "./node_modules/moment/locale/th.js",
+      "./tk": "./node_modules/moment/locale/tk.js",
+      "./tk.js": "./node_modules/moment/locale/tk.js",
       "./tl-ph": "./node_modules/moment/locale/tl-ph.js",
       "./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
       "./tlh": "./node_modules/moment/locale/tlh.js",
@@ -1460,41 +1462,51 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _services_exchange_rates_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    var moment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! moment */
+    "./node_modules/moment/moment.js");
+    /* harmony import */
+
+
+    var moment__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_1__);
+    /* harmony import */
+
+
+    var _services_exchange_rates_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! ../services/exchange-rates.service */
     "./src/app/services/exchange-rates.service.ts");
     /* harmony import */
 
 
-    var _services_banks_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var _services_banks_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! ../services/banks.service */
     "./src/app/services/banks.service.ts");
     /* harmony import */
 
 
-    var _services_nb_converter_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _services_nb_converter_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ../services/nb-converter.service */
     "./src/app/services/nb-converter.service.ts");
     /* harmony import */
 
 
-    var _services_banks_converter_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _services_banks_converter_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ../services/banks-converter.service */
     "./src/app/services/banks-converter.service.ts");
     /* harmony import */
 
 
-    var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! @angular/forms */
     "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
     /* harmony import */
 
 
-    var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! @angular/common */
     "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
-    function ConverterComponent_div_32_Template(rf, ctx) {
+    function ConverterComponent_div_31_Template(rf, ctx) {
       if (rf & 1) {
         var _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
@@ -1506,7 +1518,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "button", 16);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ConverterComponent_div_32_Template_button_click_3_listener() {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ConverterComponent_div_31_Template_button_click_3_listener() {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3);
 
           var ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -1520,7 +1532,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "button", 16);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ConverterComponent_div_32_Template_button_click_5_listener() {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ConverterComponent_div_31_Template_button_click_5_listener() {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3);
 
           var ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -1544,13 +1556,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "input", 17);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_div_32_Template_input_ngModelChange_10_listener($event) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_div_31_Template_input_ngModelChange_10_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3);
 
           var ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
           return ctx_r5._banksConverterService.valUsdBuySell = $event;
-        })("ngModelChange", function ConverterComponent_div_32_Template_input_ngModelChange_10_listener($event) {
+        })("ngModelChange", function ConverterComponent_div_31_Template_input_ngModelChange_10_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3);
 
           var ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -1572,13 +1584,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "input", 18);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_div_32_Template_input_ngModelChange_14_listener($event) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_div_31_Template_input_ngModelChange_14_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3);
 
           var ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
           return ctx_r7._banksConverterService.valEurBuySell = $event;
-        })("ngModelChange", function ConverterComponent_div_32_Template_input_ngModelChange_14_listener($event) {
+        })("ngModelChange", function ConverterComponent_div_31_Template_input_ngModelChange_14_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3);
 
           var ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -1600,13 +1612,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "input", 19);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_div_32_Template_input_ngModelChange_18_listener($event) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_div_31_Template_input_ngModelChange_18_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3);
 
           var ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
           return ctx_r9._banksConverterService.valBynBuySell = $event;
-        })("ngModelChange", function ConverterComponent_div_32_Template_input_ngModelChange_18_listener($event) {
+        })("ngModelChange", function ConverterComponent_div_31_Template_input_ngModelChange_18_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3);
 
           var ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -1628,13 +1640,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "input", 20);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_div_32_Template_input_ngModelChange_22_listener($event) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_div_31_Template_input_ngModelChange_22_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3);
 
           var ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
           return ctx_r11._banksConverterService.valRubBuySell = $event;
-        })("ngModelChange", function ConverterComponent_div_32_Template_input_ngModelChange_22_listener($event) {
+        })("ngModelChange", function ConverterComponent_div_31_Template_input_ngModelChange_22_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3);
 
           var ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -1670,7 +1682,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }
     }
 
-    function ConverterComponent_div_33_Template(rf, ctx) {
+    function ConverterComponent_div_32_Template(rf, ctx) {
       if (rf & 1) {
         var _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
@@ -1682,7 +1694,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "button", 16);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ConverterComponent_div_33_Template_button_click_3_listener() {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ConverterComponent_div_32_Template_button_click_3_listener() {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14);
 
           var ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -1696,7 +1708,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "button", 16);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ConverterComponent_div_33_Template_button_click_5_listener() {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ConverterComponent_div_32_Template_button_click_5_listener() {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14);
 
           var ctx_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -1720,13 +1732,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "input", 17);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_div_33_Template_input_ngModelChange_10_listener($event) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_div_32_Template_input_ngModelChange_10_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14);
 
           var ctx_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
           return ctx_r16._banksConverterService.valUsdBuySell = $event;
-        })("ngModelChange", function ConverterComponent_div_33_Template_input_ngModelChange_10_listener($event) {
+        })("ngModelChange", function ConverterComponent_div_32_Template_input_ngModelChange_10_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14);
 
           var ctx_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -1748,13 +1760,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "input", 18);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_div_33_Template_input_ngModelChange_14_listener($event) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_div_32_Template_input_ngModelChange_14_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14);
 
           var ctx_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
           return ctx_r18._banksConverterService.valEurBuySell = $event;
-        })("ngModelChange", function ConverterComponent_div_33_Template_input_ngModelChange_14_listener($event) {
+        })("ngModelChange", function ConverterComponent_div_32_Template_input_ngModelChange_14_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14);
 
           var ctx_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -1776,13 +1788,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "input", 19);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_div_33_Template_input_ngModelChange_18_listener($event) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_div_32_Template_input_ngModelChange_18_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14);
 
           var ctx_r20 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
           return ctx_r20._banksConverterService.valBynBuySell = $event;
-        })("ngModelChange", function ConverterComponent_div_33_Template_input_ngModelChange_18_listener($event) {
+        })("ngModelChange", function ConverterComponent_div_32_Template_input_ngModelChange_18_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14);
 
           var ctx_r21 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -1804,13 +1816,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "input", 20);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_div_33_Template_input_ngModelChange_22_listener($event) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_div_32_Template_input_ngModelChange_22_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14);
 
           var ctx_r22 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
           return ctx_r22._banksConverterService.valRubBuySell = $event;
-        })("ngModelChange", function ConverterComponent_div_33_Template_input_ngModelChange_22_listener($event) {
+        })("ngModelChange", function ConverterComponent_div_32_Template_input_ngModelChange_22_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14);
 
           var ctx_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -1846,73 +1858,25 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }
     }
 
-    var ConverterComponent = // public valUsd: number;
-    // public valEur: number;
-    // public valRub: number;
-    // public valByn: number;
-    // public valUah: number;
-    // public numAfterComma: number = 3;
-    // public minUsdBuy: number;
-    // public minUsdSell: number;
-    // public minEurBuy: number;
-    // public minEurSell: number;
-    // public minRubBuy: number;
-    // public minRubSell: number;
-    // public minBuy: number[];
-    // public minSell: number[];
-    // public banksBuy: boolean = true;
-    // public valUsdBuySell: number;
-    // public valEurBuySell: number;
-    // public valRubBuySell: number;
-    // public valBynBuySell: number;
-    function ConverterComponent(_exchangeRatesService, _banksService, _nbConverterService, _banksConverterService) {
+    var ConverterComponent = function ConverterComponent(_exchangeRatesService, _banksService, _nbConverterService, _banksConverterService) {
       _classCallCheck(this, ConverterComponent);
 
       this._exchangeRatesService = _exchangeRatesService;
       this._banksService = _banksService;
       this._nbConverterService = _nbConverterService;
-      this._banksConverterService = _banksConverterService; // // console.log(_banksService.banksRates);
-      // const usdArrayBuy: any = _banksService.banksRates.map((e: any) => {
-      // 	return e[0];
-      // });
-      // const usdArraySell: any = _banksService.banksRates.map((e: any) => {
-      // 	return e[1];
-      // });
-      // const eurArrayBuy: any = _banksService.banksRates.map((e: any) => {
-      // 	return e[2];
-      // });
-      // const eurArraySell: any = _banksService.banksRates.map((e: any) => {
-      // 	return e[3];
-      // });
-      // const rubArrayBuy: any = _banksService.banksRates.map((e: any) => {
-      // 	return e[4];
-      // });
-      // const rubArraySell: any = _banksService.banksRates.map((e: any) => {
-      // 	return e[5];
-      // });
-      // this.minUsdBuy = Math.min.apply(null, usdArrayBuy);
-      // this.minUsdSell = Math.min.apply(null, usdArraySell);
-      // this.minEurBuy = Math.min.apply(null, eurArrayBuy);
-      // this.minEurSell = Math.min.apply(null, eurArraySell);
-      // this.minRubBuy = Math.min.apply(null, rubArrayBuy);
-      // this.minRubSell = Math.min.apply(null, rubArraySell);
-      // // console.log(_banksService.banksRates[1]);
-      // // console.log(this.minUsdSell);
-      // // console.log(this.minEurBuy);
-      // // console.log(this.minEurSell);
-      // // console.log(this.minRubBuy);
-      // // console.log(this.minRubSell);
+      this._banksConverterService = _banksConverterService;
+      this.todayDate = moment__WEBPACK_IMPORTED_MODULE_1__().locale('ru').format('Do MMMM YYYY, H:mm:ss');
     };
 
     ConverterComponent.ɵfac = function ConverterComponent_Factory(t) {
-      return new (t || ConverterComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_exchange_rates_service__WEBPACK_IMPORTED_MODULE_1__["ExchangeRatesService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_banks_service__WEBPACK_IMPORTED_MODULE_2__["BanksService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_nb_converter_service__WEBPACK_IMPORTED_MODULE_3__["NbConverterService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_banks_converter_service__WEBPACK_IMPORTED_MODULE_4__["BanksConverterService"]));
+      return new (t || ConverterComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_exchange_rates_service__WEBPACK_IMPORTED_MODULE_2__["ExchangeRatesService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_banks_service__WEBPACK_IMPORTED_MODULE_3__["BanksService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_nb_converter_service__WEBPACK_IMPORTED_MODULE_4__["NbConverterService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_banks_converter_service__WEBPACK_IMPORTED_MODULE_5__["BanksConverterService"]));
     };
 
     ConverterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: ConverterComponent,
       selectors: [["app-converter"]],
-      decls: 34,
-      vars: 7,
+      decls: 33,
+      vars: 8,
       consts: [[1, "converter"], [1, "converter-container"], [1, "converter__info"], [1, "converter__converters"], [1, "converter__nbrb"], [1, "converter__nbrb__descr"], [1, "converter__nbrb__item"], [1, "converter__nbrb__item__text"], ["type", "number", "value", "_nbConverterService.valUsd", 1, "converter__nbrb__item__input", 3, "ngModel", "ngModelChange"], ["type", "number", "value", "_nbConverterService.valEur", 1, "converter__nbrb__item__input", 3, "ngModel", "ngModelChange"], ["type", "number", "value", "_nbConverterService.valByn", 1, "converter__nbrb__item__input", 3, "ngModel", "ngModelChange"], ["type", "number", "value", "_nbConverterService.valRub", 1, "converter__nbrb__item__input", 3, "ngModel", "ngModelChange"], ["type", "number", "value", "_nbConverterService.valUah", 1, "converter__nbrb__item__input", 3, "ngModel", "ngModelChange"], ["class", "converter__banks", 4, "ngIf"], [1, "converter__banks"], [1, "converter__banks-buttons"], [1, "converter__banks-buttons__buy-sale", 3, "click"], ["type", "number", "value", "_banksConverterService.valUsdBuySell", 1, "converter__nbrb__item__input", 3, "ngModel", "ngModelChange"], ["type", "number", "value", "_banksConverterService.valEurBuySell", 1, "converter__nbrb__item__input", 3, "ngModel", "ngModelChange"], ["type", "number", "value", "_banksConverterService.valBynBuySell", 1, "converter__nbrb__item__input", 3, "ngModel", "ngModelChange"], ["type", "number", "value", "_banksConverterService.valRubBuySell", 1, "converter__nbrb__item__input", 3, "ngModel", "ngModelChange"]],
       template: function ConverterComponent_Template(rf, ctx) {
         if (rf & 1) {
@@ -1938,25 +1902,23 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 5);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " \u041E\u0444\u0438\u0446\u0438\u0430\u043B\u044C\u043D\u044B\u0439 \u043A\u0443\u0440\u0441, \u0443\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u043C\u044B\u0439 \u041D\u0430\u0446\u0438\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u043C \u0431\u0430\u043D\u043A\u043E\u043C \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0438 \u0411\u0435\u043B\u0430\u0440\u0443\u0441\u044C \u043D\u0430 _________ ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " / ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 6);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 7);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 7);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "USD");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "USD");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "input", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "input", 8);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_Template_input_ngModelChange_15_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_Template_input_ngModelChange_14_listener($event) {
             return ctx._nbConverterService.valUsd = $event;
-          })("ngModelChange", function ConverterComponent_Template_input_ngModelChange_15_listener($event) {
+          })("ngModelChange", function ConverterComponent_Template_input_ngModelChange_14_listener($event) {
             return ctx._nbConverterService.converterUsd($event);
           });
 
@@ -1964,19 +1926,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 6);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 7);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "EUR");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "EUR");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "input", 9);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "input", 9);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_Template_input_ngModelChange_19_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_Template_input_ngModelChange_18_listener($event) {
             return ctx._nbConverterService.valEur = $event;
-          })("ngModelChange", function ConverterComponent_Template_input_ngModelChange_19_listener($event) {
+          })("ngModelChange", function ConverterComponent_Template_input_ngModelChange_18_listener($event) {
             return ctx._nbConverterService.converterEur($event);
           });
 
@@ -1984,19 +1946,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 6);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 7);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "BYN");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "BYN");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "input", 10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "input", 10);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_Template_input_ngModelChange_23_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_Template_input_ngModelChange_22_listener($event) {
             return ctx._nbConverterService.valByn = $event;
-          })("ngModelChange", function ConverterComponent_Template_input_ngModelChange_23_listener($event) {
+          })("ngModelChange", function ConverterComponent_Template_input_ngModelChange_22_listener($event) {
             return ctx._nbConverterService.converterByn($event);
           });
 
@@ -2004,19 +1966,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 6);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 7);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "RUB");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "RUB");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "input", 11);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "input", 11);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_Template_input_ngModelChange_27_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_Template_input_ngModelChange_26_listener($event) {
             return ctx._nbConverterService.valRub = $event;
-          })("ngModelChange", function ConverterComponent_Template_input_ngModelChange_27_listener($event) {
+          })("ngModelChange", function ConverterComponent_Template_input_ngModelChange_26_listener($event) {
             return ctx._nbConverterService.converterRub($event);
           });
 
@@ -2024,19 +1986,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 6);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 7);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "UAH");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "UAH");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "input", 12);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "input", 12);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_Template_input_ngModelChange_31_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ConverterComponent_Template_input_ngModelChange_30_listener($event) {
             return ctx._nbConverterService.valUah = $event;
-          })("ngModelChange", function ConverterComponent_Template_input_ngModelChange_31_listener($event) {
+          })("ngModelChange", function ConverterComponent_Template_input_ngModelChange_30_listener($event) {
             return ctx._nbConverterService.converterUah($event);
           });
 
@@ -2046,9 +2008,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](32, ConverterComponent_div_32_Template, 23, 4, "div", 13);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](31, ConverterComponent_div_31_Template, 23, 4, "div", 13);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](33, ConverterComponent_div_33_Template, 23, 4, "div", 13);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](32, ConverterComponent_div_32_Template, 23, 4, "div", 13);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2058,7 +2020,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }
 
         if (rf & 2) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](15);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" \u041E\u0444\u0438\u0446\u0438\u0430\u043B\u044C\u043D\u044B\u0439 \u043A\u0443\u0440\u0441, \u0443\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u043C\u044B\u0439 \u041D\u0430\u0446\u0438\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u043C \u0431\u0430\u043D\u043A\u043E\u043C \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0438 \u0411\u0435\u043B\u0430\u0440\u0443\u0441\u044C \u043D\u0430 ", ctx.todayDate, " ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx._nbConverterService.valUsd);
 
@@ -2087,7 +2053,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx._banksConverterService.banksBuy);
         }
       },
-      directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_5__["NumberValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_5__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_5__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_5__["NgModel"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgIf"]],
+      directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_6__["NumberValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_6__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_6__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_6__["NgModel"], _angular_common__WEBPACK_IMPORTED_MODULE_7__["NgIf"]],
       styles: ["*[_ngcontent-%COMP%] {\n  margin: 0px;\n  padding: 0px;\n}\n\n.nav[_ngcontent-%COMP%] {\n  background-color: #52b952;\n}\n\n.nav[_ngcontent-%COMP%]   .header-container[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  justify-content: space-around;\n}\n\n.nav[_ngcontent-%COMP%]   .header-container[_ngcontent-%COMP%]   .header__link[_ngcontent-%COMP%] {\n  font-size: 25px;\n  text-decoration: none;\n  color: black;\n}\n\n.nav[_ngcontent-%COMP%]   .footer-container[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  justify-content: space-around;\n  width: 50%;\n  margin: 0 auto;\n}\n\n.converter[_ngcontent-%COMP%] {\n  width: 65%;\n  margin: 0 auto;\n}\n\n.converter-container[_ngcontent-%COMP%] {\n  margin-top: 15px;\n  width: 90%;\n}\n\n.converter__info[_ngcontent-%COMP%] {\n  font-size: 20px;\n  text-align: center;\n}\n\n.converter__converters[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  justify-content: space-around;\n  height: 450px;\n}\n\n.converter__converters[_ngcontent-%COMP%]   .converter__nbrb[_ngcontent-%COMP%], .converter__converters[_ngcontent-%COMP%]   .converter__banks[_ngcontent-%COMP%] {\n  width: 35%;\n  height: 350px;\n  font-size: 30px;\n}\n\n.converter__converters[_ngcontent-%COMP%]   .converter__nbrb[_ngcontent-%COMP%]   .converter__nbrb__descr[_ngcontent-%COMP%], .converter__converters[_ngcontent-%COMP%]   .converter__banks[_ngcontent-%COMP%]   .converter__nbrb__descr[_ngcontent-%COMP%] {\n  margin-top: 15px;\n  font-size: 15px;\n}\n\n.converter__banks-buttons__buy-sale[_ngcontent-%COMP%] {\n  margin-top: 15px;\n  border: 0.5px solid #c5c5c5;\n  border-radius: 0;\n  width: 50%;\n  height: 25px;\n}\n\n.converter__nbrb__item[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  justify-content: space-evenly;\n  margin: 0 auto;\n  width: 90%;\n  margin-top: 15px;\n}\n\n.converter__nbrb__item__text[_ngcontent-%COMP%] {\n  font-size: 20px;\n  font-weight: bold;\n}\n\n.converter__nbrb__item__input[_ngcontent-%COMP%] {\n  width: 80%;\n}\n\n.converter__nbrb__descr[_ngcontent-%COMP%], .converter__banks-buttons[_ngcontent-%COMP%] {\n  height: 60px;\n}\n\n.converter__top-requests[_ngcontent-%COMP%] {\n  text-align: center;\n  font-size: 20px;\n  font-weight: bold;\n  margin-bottom: 15px;\n}\n\n.converter__top-requests-container[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  flex-wrap: wrap;\n  height: 50px;\n  font-size: 14px;\n  font-weight: 100;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udmVydGVyL0Q6XFzQntCx0YPRh9C10L3QuNC1XFxUYXNrc1xcTmFydXRza2lfcHJvamVjdC9zcmNcXGFwcFxcYXBwLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb252ZXJ0ZXIvY29udmVydGVyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb252ZXJ0ZXIvRDpcXNCe0LHRg9GH0LXQvdC40LVcXFRhc2tzXFxOYXJ1dHNraV9wcm9qZWN0L3NyY1xcYXBwXFxjb252ZXJ0ZXJcXGNvbnZlcnRlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQkE7RUFDQyxXQUFBO0VBQ0EsWUFBQTtBQ2ZEOztBRGtCQTtFQUNDLHlCQUFBO0FDZkQ7O0FEaUJDO0VBbEJBLGFBQUE7RUFDQSx1QkFBQTtFQUNBLG1CQUFBO0VBa0JDLDZCQUFBO0FDYkY7O0FEZUU7RUFDQyxlQUFBO0VBQ0EscUJBQUE7RUFDQSxZQUFBO0FDYkg7O0FEZ0JDO0VBNUJBLGFBQUE7RUFDQSx1QkFBQTtFQUNBLG1CQUFBO0VBNEJDLDZCQUFBO0VBQ0EsVUFBQTtFQUNBLGNBQUE7QUNaRjs7QUN4QkE7RUFDSSxVQUFBO0VBQ0EsY0FBQTtBRDJCSjs7QUMxQkk7RUFDSSxnQkFBQTtFQUNBLFVBQUE7QUQ0QlI7O0FDeEJBO0VBQ0ksZUFBQTtFQUNBLGtCQUFBO0FEMkJKOztBQ3hCQTtFRlZDLGFBQUE7RUFDQSx1QkFBQTtFQUNBLG1CQUFBO0VFVUcsNkJBQUE7RUFDQSxhQUFBO0FENkJKOztBQzNCSTs7RUFFSSxVQUFBO0VBQ0EsYUFBQTtFQUNBLGVBQUE7QUQ2QlI7O0FDM0JROztFQUNJLGdCQUFBO0VBQ0EsZUFBQTtBRDhCWjs7QUN6Qkk7RUFDSSxnQkFBQTtFQUNBLDJCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxVQUFBO0VBQ0EsWUFBQTtBRDRCUjs7QUN4QkE7RUZyQ0MsYUFBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7RUVxQ0csNkJBQUE7RUFDQSxjQUFBO0VBQ0EsVUFBQTtFQUNBLGdCQUFBO0FENkJKOztBQzNCSTtFQUNJLGVBQUE7RUFDQSxpQkFBQTtBRDZCUjs7QUMzQkk7RUFDSSxVQUFBO0FENkJSOztBQ3pCQTs7RUFFSSxZQUFBO0FENEJKOztBQzFCQTtFQUNJLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLGlCQUFBO0VBQ0EsbUJBQUE7QUQ2Qko7O0FDNUJJO0VGOURILGFBQUE7RUFDQSx1QkFBQTtFQUNBLG1CQUFBO0VFOERPLHNCQUFBO0VBQ0EsZUFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7QURnQ1IiLCJmaWxlIjoic3JjL2FwcC9jb252ZXJ0ZXIvY29udmVydGVyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQG1peGluIGJvcmRlciB7XHJcblx0Ym9yZGVyOiBub25lO1xyXG5cdGJvcmRlci1yYWRpdXM6IDVweDtcclxufVxyXG5cclxuQG1peGluIGZsZXgge1xyXG5cdGRpc3BsYXk6IGZsZXg7XHJcblx0anVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcblx0YWxpZ24taXRlbXM6IGNlbnRlcjtcclxufVxyXG5cclxuQG1peGluIGJ1dHRvbnMge1xyXG5cdG91dGxpbmU6IG5vbmU7XHJcblx0Y3Vyc29yOiBwb2ludGVyO1xyXG59XHJcblxyXG4qIHtcclxuXHRtYXJnaW46IDBweDtcclxuXHRwYWRkaW5nOiAwcHg7XHJcbn1cclxuXHJcbi5uYXYge1xyXG5cdGJhY2tncm91bmQtY29sb3I6IHJnYig4MiwgMTg1LCA4Mik7XHJcblxyXG5cdC5oZWFkZXItY29udGFpbmVyIHtcclxuXHRcdEBpbmNsdWRlIGZsZXg7XHJcblx0XHRqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZDtcclxuXHJcblx0XHQuaGVhZGVyX19saW5rIHtcclxuXHRcdFx0Zm9udC1zaXplOiAyNXB4O1xyXG5cdFx0XHR0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcblx0XHRcdGNvbG9yOiBibGFjaztcclxuXHRcdH1cclxuXHR9XHJcblx0LmZvb3Rlci1jb250YWluZXIge1xyXG5cdFx0QGluY2x1ZGUgZmxleDtcclxuXHRcdGp1c3RpZnktY29udGVudDogc3BhY2UtYXJvdW5kO1xyXG5cdFx0d2lkdGg6IDUwJTtcclxuXHRcdG1hcmdpbjogMCBhdXRvO1xyXG5cdH1cclxufVxyXG4iLCIqIHtcbiAgbWFyZ2luOiAwcHg7XG4gIHBhZGRpbmc6IDBweDtcbn1cblxuLm5hdiB7XG4gIGJhY2tncm91bmQtY29sb3I6ICM1MmI5NTI7XG59XG4ubmF2IC5oZWFkZXItY29udGFpbmVyIHtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtYXJvdW5kO1xufVxuLm5hdiAuaGVhZGVyLWNvbnRhaW5lciAuaGVhZGVyX19saW5rIHtcbiAgZm9udC1zaXplOiAyNXB4O1xuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gIGNvbG9yOiBibGFjaztcbn1cbi5uYXYgLmZvb3Rlci1jb250YWluZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1hcm91bmQ7XG4gIHdpZHRoOiA1MCU7XG4gIG1hcmdpbjogMCBhdXRvO1xufVxuXG4uY29udmVydGVyIHtcbiAgd2lkdGg6IDY1JTtcbiAgbWFyZ2luOiAwIGF1dG87XG59XG4uY29udmVydGVyLWNvbnRhaW5lciB7XG4gIG1hcmdpbi10b3A6IDE1cHg7XG4gIHdpZHRoOiA5MCU7XG59XG5cbi5jb252ZXJ0ZXJfX2luZm8ge1xuICBmb250LXNpemU6IDIwcHg7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmNvbnZlcnRlcl9fY29udmVydGVycyB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZDtcbiAgaGVpZ2h0OiA0NTBweDtcbn1cbi5jb252ZXJ0ZXJfX2NvbnZlcnRlcnMgLmNvbnZlcnRlcl9fbmJyYixcbi5jb252ZXJ0ZXJfX2NvbnZlcnRlcnMgLmNvbnZlcnRlcl9fYmFua3Mge1xuICB3aWR0aDogMzUlO1xuICBoZWlnaHQ6IDM1MHB4O1xuICBmb250LXNpemU6IDMwcHg7XG59XG4uY29udmVydGVyX19jb252ZXJ0ZXJzIC5jb252ZXJ0ZXJfX25icmIgLmNvbnZlcnRlcl9fbmJyYl9fZGVzY3IsXG4uY29udmVydGVyX19jb252ZXJ0ZXJzIC5jb252ZXJ0ZXJfX2JhbmtzIC5jb252ZXJ0ZXJfX25icmJfX2Rlc2NyIHtcbiAgbWFyZ2luLXRvcDogMTVweDtcbiAgZm9udC1zaXplOiAxNXB4O1xufVxuXG4uY29udmVydGVyX19iYW5rcy1idXR0b25zX19idXktc2FsZSB7XG4gIG1hcmdpbi10b3A6IDE1cHg7XG4gIGJvcmRlcjogMC41cHggc29saWQgI2M1YzVjNTtcbiAgYm9yZGVyLXJhZGl1czogMDtcbiAgd2lkdGg6IDUwJTtcbiAgaGVpZ2h0OiAyNXB4O1xufVxuXG4uY29udmVydGVyX19uYnJiX19pdGVtIHtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xuICBtYXJnaW46IDAgYXV0bztcbiAgd2lkdGg6IDkwJTtcbiAgbWFyZ2luLXRvcDogMTVweDtcbn1cbi5jb252ZXJ0ZXJfX25icmJfX2l0ZW1fX3RleHQge1xuICBmb250LXNpemU6IDIwcHg7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuLmNvbnZlcnRlcl9fbmJyYl9faXRlbV9faW5wdXQge1xuICB3aWR0aDogODAlO1xufVxuXG4uY29udmVydGVyX19uYnJiX19kZXNjcixcbi5jb252ZXJ0ZXJfX2JhbmtzLWJ1dHRvbnMge1xuICBoZWlnaHQ6IDYwcHg7XG59XG5cbi5jb252ZXJ0ZXJfX3RvcC1yZXF1ZXN0cyB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiAyMHB4O1xuICBmb250LXdlaWdodDogYm9sZDtcbiAgbWFyZ2luLWJvdHRvbTogMTVweDtcbn1cbi5jb252ZXJ0ZXJfX3RvcC1yZXF1ZXN0cy1jb250YWluZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgZmxleC13cmFwOiB3cmFwO1xuICBoZWlnaHQ6IDUwcHg7XG4gIGZvbnQtc2l6ZTogMTRweDtcbiAgZm9udC13ZWlnaHQ6IDEwMDtcbn0iLCJAaW1wb3J0IFwic3JjL2FwcC9hcHAuY29tcG9uZW50XCI7XHJcblxyXG4uY29udmVydGVyIHtcclxuICAgIHdpZHRoOiA2NSU7XHJcbiAgICBtYXJnaW46IDAgYXV0bztcclxuICAgICYtY29udGFpbmVyIHtcclxuICAgICAgICBtYXJnaW4tdG9wOiAxNXB4O1xyXG4gICAgICAgIHdpZHRoOiA5MCU7XHJcbiAgICB9XHJcbn1cclxuXHJcbi5jb252ZXJ0ZXJfX2luZm8ge1xyXG4gICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uY29udmVydGVyX19jb252ZXJ0ZXJzIHtcclxuICAgIEBpbmNsdWRlIGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZDtcclxuICAgIGhlaWdodDogNDUwcHg7XHJcblxyXG4gICAgLmNvbnZlcnRlcl9fbmJyYixcclxuICAgIC5jb252ZXJ0ZXJfX2JhbmtzIHtcclxuICAgICAgICB3aWR0aDogMzUlO1xyXG4gICAgICAgIGhlaWdodDogMzUwcHg7XHJcbiAgICAgICAgZm9udC1zaXplOiAzMHB4O1xyXG5cclxuICAgICAgICAuY29udmVydGVyX19uYnJiX19kZXNjciB7XHJcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDE1cHg7XHJcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTVweDtcclxuICAgICAgICB9XHJcbiAgICB9XHJcbn1cclxuLmNvbnZlcnRlcl9fYmFua3MtYnV0dG9ucyB7XHJcbiAgICAmX19idXktc2FsZSB7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogMTVweDtcclxuICAgICAgICBib3JkZXI6IDAuNXB4IHNvbGlkIHJnYigxOTcsIDE5NywgMTk3KTtcclxuICAgICAgICBib3JkZXItcmFkaXVzOiAwO1xyXG4gICAgICAgIHdpZHRoOiA1MCU7XHJcbiAgICAgICAgaGVpZ2h0OiAyNXB4O1xyXG4gICAgfVxyXG59XHJcblxyXG4uY29udmVydGVyX19uYnJiX19pdGVtIHtcclxuICAgIEBpbmNsdWRlIGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcclxuICAgIG1hcmdpbjogMCBhdXRvO1xyXG4gICAgd2lkdGg6IDkwJTtcclxuICAgIG1hcmdpbi10b3A6IDE1cHg7XHJcblxyXG4gICAgJl9fdGV4dCB7XHJcbiAgICAgICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgfVxyXG4gICAgJl9faW5wdXQge1xyXG4gICAgICAgIHdpZHRoOiA4MCU7XHJcbiAgICB9XHJcbn1cclxuXHJcbi5jb252ZXJ0ZXJfX25icmJfX2Rlc2NyLFxyXG4uY29udmVydGVyX19iYW5rcy1idXR0b25zIHtcclxuICAgIGhlaWdodDogNjBweDtcclxufVxyXG4uY29udmVydGVyX190b3AtcmVxdWVzdHMge1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAxNXB4O1xyXG4gICAgJi1jb250YWluZXIge1xyXG4gICAgICAgIEBpbmNsdWRlIGZsZXg7XHJcbiAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgICAgICBmbGV4LXdyYXA6IHdyYXA7XHJcbiAgICAgICAgaGVpZ2h0OiA1MHB4O1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICAgICAgICBmb250LXdlaWdodDogMTAwO1xyXG4gICAgfVxyXG59XHJcbiJdfQ== */"]
     });
     /*@__PURE__*/
@@ -2102,13 +2068,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }]
       }], function () {
         return [{
-          type: _services_exchange_rates_service__WEBPACK_IMPORTED_MODULE_1__["ExchangeRatesService"]
+          type: _services_exchange_rates_service__WEBPACK_IMPORTED_MODULE_2__["ExchangeRatesService"]
         }, {
-          type: _services_banks_service__WEBPACK_IMPORTED_MODULE_2__["BanksService"]
+          type: _services_banks_service__WEBPACK_IMPORTED_MODULE_3__["BanksService"]
         }, {
-          type: _services_nb_converter_service__WEBPACK_IMPORTED_MODULE_3__["NbConverterService"]
+          type: _services_nb_converter_service__WEBPACK_IMPORTED_MODULE_4__["NbConverterService"]
         }, {
-          type: _services_banks_converter_service__WEBPACK_IMPORTED_MODULE_4__["BanksConverterService"]
+          type: _services_banks_converter_service__WEBPACK_IMPORTED_MODULE_5__["BanksConverterService"]
         }];
       }, null);
     })();
@@ -3214,42 +3180,6 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this._dataService = _dataService;
         this.numAfterComma = 3;
         this.banksBuy = true;
-
-        var usdArrayBuy = _banksService.banksRates.map(function (e) {
-          return e[0];
-        });
-
-        var usdArraySell = _banksService.banksRates.map(function (e) {
-          return e[1];
-        });
-
-        var eurArrayBuy = _banksService.banksRates.map(function (e) {
-          return e[2];
-        });
-
-        var eurArraySell = _banksService.banksRates.map(function (e) {
-          return e[3];
-        });
-
-        var rubArrayBuy = _banksService.banksRates.map(function (e) {
-          return e[4];
-        });
-
-        var rubArraySell = _banksService.banksRates.map(function (e) {
-          return e[5];
-        });
-
-        this.minUsdBuy = Math.min.apply(null, usdArrayBuy);
-        this.minUsdSell = Math.min.apply(null, usdArraySell);
-        this.minEurBuy = Math.min.apply(null, eurArrayBuy);
-        this.minEurSell = Math.min.apply(null, eurArraySell);
-        this.minRubBuy = Math.min.apply(null, rubArrayBuy);
-        this.minRubSell = Math.min.apply(null, rubArraySell);
-        console.log(_banksService.banksRates[1]);
-        console.log(this.minEurBuy);
-        console.log(this.minEurSell);
-        console.log(this.minRubBuy);
-        console.log(this.minRubSell);
       }
 
       _createClass(BanksConverterService, [{
@@ -3260,52 +3190,95 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.valEurBuySell = null;
           this.valRubBuySell = null;
           this.valBynBuySell = null;
+          this.converterCalc();
+        }
+      }, {
+        key: "converterCalc",
+        value: function converterCalc() {
+          var usdArrayBuy = this._banksService.banksRates.map(function (e) {
+            return e[0];
+          });
+
+          var usdArraySell = this._banksService.banksRates.map(function (e) {
+            return e[1];
+          });
+
+          var eurArrayBuy = this._banksService.banksRates.map(function (e) {
+            return e[2];
+          });
+
+          var eurArraySell = this._banksService.banksRates.map(function (e) {
+            return e[3];
+          });
+
+          var rubArrayBuy = this._banksService.banksRates.map(function (e) {
+            return e[4];
+          });
+
+          var rubArraySell = this._banksService.banksRates.map(function (e) {
+            return e[5];
+          });
+
+          this.minUsdBuy = Math.min.apply(0, usdArrayBuy);
+          this.minUsdSell = Math.min.apply(null, usdArraySell);
+          this.minEurBuy = Math.min.apply(null, eurArrayBuy);
+          this.minEurSell = Math.min.apply(null, eurArraySell);
+          this.minRubBuy = Math.min.apply(null, rubArrayBuy);
+          this.minRubSell = Math.min.apply(null, rubArraySell);
         }
       }, {
         key: "converterUsdBuy",
         value: function converterUsdBuy(newValue) {
+          this.converterCalc();
           this.valUsdBuySell = newValue;
           return this.valEurBuySell = +(this.valUsdBuySell * (this.minUsdBuy / this.minEurBuy)).toFixed(this.numAfterComma), this.valRubBuySell = +(this.valUsdBuySell * 100 * (this.minUsdBuy / this.minRubBuy)).toFixed(this.numAfterComma), this.valBynBuySell = +(this.valUsdBuySell * this.minUsdBuy).toFixed(this.numAfterComma);
         }
       }, {
         key: "converterEurBuy",
         value: function converterEurBuy(newValue) {
+          this.converterCalc();
           this.valEurBuySell = newValue;
           return this.valUsdBuySell = +(this.valEurBuySell * (this.minEurBuy / this.minUsdBuy)).toFixed(this.numAfterComma), this.valRubBuySell = +(this.valEurBuySell * 100 * (this.minEurBuy / this.minRubBuy)).toFixed(this.numAfterComma), this.valBynBuySell = +(this.valEurBuySell * this.minEurBuy).toFixed(this.numAfterComma);
         }
       }, {
         key: "converterRubBuy",
         value: function converterRubBuy(newValue) {
+          this.converterCalc();
           this.valRubBuySell = newValue;
           return this.valUsdBuySell = +(this.valRubBuySell / 100 * (this.minRubBuy / this.minUsdBuy)).toFixed(this.numAfterComma), this.valEurBuySell = +(this.valRubBuySell / 100 * (this.minRubBuy / this.minEurBuy)).toFixed(this.numAfterComma), this.valBynBuySell = +(this.valRubBuySell / 100 * this.minRubBuy).toFixed(this.numAfterComma);
         }
       }, {
         key: "converterBynBuy",
         value: function converterBynBuy(newValue) {
+          this.converterCalc();
           this.valBynBuySell = newValue;
           return this.valUsdBuySell = +(this.valBynBuySell / this.minUsdBuy).toFixed(this.numAfterComma), this.valRubBuySell = +(this.valBynBuySell * 100 / this.minRubBuy).toFixed(this.numAfterComma), this.valEurBuySell = +(this.valBynBuySell / this.minEurBuy).toFixed(this.numAfterComma);
         }
       }, {
         key: "converterUsdSell",
         value: function converterUsdSell(newValue) {
+          this.converterCalc();
           this.valUsdBuySell = newValue;
           return this.valEurBuySell = +(this.valUsdBuySell * (this.minUsdSell / this.minEurSell)).toFixed(this.numAfterComma), this.valRubBuySell = +(this.valUsdBuySell * 100 * (this.minUsdSell / this.minRubSell)).toFixed(this.numAfterComma), this.valBynBuySell = +(this.valUsdBuySell * this.minUsdSell).toFixed(this.numAfterComma);
         }
       }, {
         key: "converterEurSell",
         value: function converterEurSell(newValue) {
+          this.converterCalc();
           this.valEurBuySell = newValue;
           return this.valUsdBuySell = +(this.valEurBuySell * (this.minEurSell / this.minUsdSell)).toFixed(this.numAfterComma), this.valRubBuySell = +(this.valEurBuySell * 100 * (this.minEurSell / this.minRubSell)).toFixed(this.numAfterComma), this.valBynBuySell = +(this.valEurBuySell * this.minEurSell).toFixed(this.numAfterComma);
         }
       }, {
         key: "converterRubSell",
         value: function converterRubSell(newValue) {
+          this.converterCalc();
           this.valRubBuySell = newValue;
           return this.valUsdBuySell = +(this.valRubBuySell / 100 * (this.minRubSell / this.minUsdSell)).toFixed(this.numAfterComma), this.valEurBuySell = +(this.valRubBuySell / 100 * (this.minRubSell / this.minEurSell)).toFixed(this.numAfterComma), this.valBynBuySell = +(this.valRubBuySell / 100 * this.minRubSell).toFixed(this.numAfterComma);
         }
       }, {
         key: "converterBynSell",
         value: function converterBynSell(newValue) {
+          this.converterCalc();
           this.valBynBuySell = newValue;
           return this.valUsdBuySell = +(this.valBynBuySell / this.minUsdSell).toFixed(this.numAfterComma), this.valRubBuySell = +(this.valBynBuySell * 100 / this.minRubSell).toFixed(this.numAfterComma), this.valEurBuySell = +(this.valBynBuySell / this.minEurSell).toFixed(this.numAfterComma);
         }
@@ -3320,17 +3293,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     BanksConverterService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
       token: BanksConverterService,
-      factory: BanksConverterService.ɵfac,
-      providedIn: 'root'
+      factory: BanksConverterService.ɵfac
     });
     /*@__PURE__*/
 
     (function () {
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](BanksConverterService, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
-        args: [{
-          providedIn: 'root'
-        }]
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
       }], function () {
         return [{
           type: _banks_service__WEBPACK_IMPORTED_MODULE_1__["BanksService"]
